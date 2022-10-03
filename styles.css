@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    background: #474747;
+
+}
+::placeholder {
+    color: white;
+}
+.inputWrapper {
+    width: 300px;
+}
+.inputWrapper input,
+.inputWrapper button
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+.inputWrapper input {
+    margin-bottom: 20px;
+    padding: 10px ;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    
+    
+}
+.inputWrapper input:focus-visible {
+    outline: 0px;
+} 
+.inputWrapper button {
+    margin-top: 15px;
+    background-color: #4044ed;
+    padding: 10px 100px 10px;
+    border: 1px  solid #000;
+    color: white  ;
+}
+.loginInner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.logo{
+    width: 175px;
+    height: 96px;
+    padding-bottom: 80px;
+}
+.ecl-1 {
+    position: absolute;
+width: 1200px;
+height: 914px;
+left: -585px;
+top: 10px;
+
+}
+.ecl-2{
+    position: absolute;
+width: 76px;
+height: 76px;
+left: 105px;
+top: 243px;
+z-index: 1;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.subt{
+    position: absolute;
+    width: 570.76px;
+    height: 510.5px;
+    left: 1098px;
+    top: -140.86px;
+
+}
+
+.polyg1 {
+    position: absolute;
+    width: 336.47px;
+    height: 336.47px;
+    left: 1248px;
+    top: 920.08px;
+}
+.polyg2 {
+    position: absolute;
+    width: 336.47px;
+    height: 336.47px;
+    left: 1353.14px;
+    top: 1014.15px;
+}
+.polyg3 {
+    position: absolute;
+    width: 336.47px;
+    height: 336.47px;
+    left: 1462.24px;
+    top: 1106.97px;
+
+}
